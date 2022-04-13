@@ -57,3 +57,5 @@ const t = date.toLocaleTimeString();
     });
 // autoloads charlottes zip so I can check if my changes work
     zipData("28205");
+    
+module.exports = {zipData, lonlat, displayWeather, search};
